@@ -1,0 +1,87 @@
+{% extends "guest/base.html" %}
+{% load static %}
+{% block title %} Home {% endblock %}
+{% block page_content %}
+
+
+<section class="home">
+
+
+    <div class="content">
+        <h3 class="heading">Home away from <span>home</span></h3>
+    </div>
+
+    <div class="swiper-container home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="{% static 'images/slide-8.jpg' %}" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'images/slide-9.jpg' %}" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'images/slide-10.jpg' %}" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'images/slide-7.jpg' %}" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'images/slide-11.jpg' %}" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'images/slide-12.jpg' %}" alt=""></div>
+        </div>
+    </div>
+
+
+</section>
+
+
+
+<section class="price" id="price">
+    <br><br><br><br>
+    <h1 class="heading">ABOUT <span>US</span></h1>
+    <br><br>
+
+    <div class="container text-white">
+        <h1>
+            Welcome to OSKO, a haven of hospitality where extraordinary experiences await. Nestled in the heart of a
+            vibrant city, OSKO is more than just a hotel—it's a destination that captures the essence of luxury,
+            comfort,
+            and personalized service.
+        </h1>
+        <br><br>
+
+        <h1>
+
+            At OSKO, we pride ourselves on creating a seamless fusion of contemporary elegance and warm hospitality.
+            From the moment you step through our doors, you'll be greeted by a team of dedicated professionals who are
+            committed to making your stay exceptional in every way. Our meticulously designed rooms and suites provide a
+            sanctuary of comfort, featuring modern amenities, plush furnishings, and captivating views of the cityscape.
+            Whether you're here for business or leisure, our accommodations are tailored to cater to your every need,
+            ensuring a
+            restful and rejuvenating experience.
+        </h1>
+        <br><br>
+        <h1>
+
+            Indulge your palate in our exquisite dining establishments, where our expert chefs curate a symphony of
+            flavors
+            using the finest ingredients. From delectable local cuisine to international delicacies, each dish is a
+            masterpiece that will tantalize your taste buds and leave you craving for more.
+
+
+        </h1>
+        <br><br>
+        <h1>
+            OSKO goes beyond the ordinary with its array of exceptional facilities and services. Unwind by our sparkling
+            pool, rejuvenate your senses at our state-of-the-art spa, or stay fit in our well-equipped fitness center.
+            Our dedicated concierge is always on hand to assist with any requests, from arranging personalized
+            excursions
+            to securing reservations at the hottest attractions and restaurants. As a testament to our commitment to
+            excellence,
+            OSKO has received numerous accolades for its outstanding hospitality and unwavering dedication to guest
+            satisfaction. We take great pride in exceeding expectations and creating memories that will last a lifetime.
+
+        </h1>
+        <br><br>
+        <h1>
+            Whether you're seeking a romantic getaway, a memorable family vacation, or a seamless business trip, OSKO
+            is the perfect choice. Discover the unparalleled blend of luxury, comfort, and impeccable service that sets
+            us apart. We look forward to welcoming you to an unforgettable experience at OSKO.
+        </h1>
+    </div>
+
+</section>
+
+
+{% endblock %}
